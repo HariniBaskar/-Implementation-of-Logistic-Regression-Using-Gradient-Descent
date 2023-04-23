@@ -42,10 +42,9 @@ plt.scatter(X[y==0][:,0],X[y==0][:,1],label="Not Admitted")
 plt.xlabel("Exam 1 Score")
 plt.ylabel("Exam 2 Score")
 plt.legend()
-
-
 plt.show()
 
+def sigmoid(z):
     return 1 / (1 + np.exp(-z))
     
 plt.plot()
